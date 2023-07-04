@@ -1,0 +1,15 @@
+fname = input("name? ")
+lname = input("last name? ")
+full_name_title =""
+
+def format_name(fname, lname):
+    fname= fname.title()
+    lname= lname.title()
+
+    return print(fname, lname)
+
+
+format_name(fname, lname)
+print(type(full_name_title))
+print(fname)
+print(lname)
